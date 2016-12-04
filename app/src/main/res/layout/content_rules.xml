@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akshaya.cowsandbulls.Rules"
+    tools:showIn="@layout/activity_rules">
+
+    <TextView
+        android:height="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="A person (Host) thinks of any isogram word, and gives out the number of letters in the word.\n\nOther players (Guessers) try to figure that word by guessing isogram words containing the same number of letters.\n\n
+
+Host responds with the number of Cows and Bulls for each guessed word. As with the digit version, 'Cow' means a letter in the wrong position, while 'Bull' means a letter in the right position.\n\n
+
+For example, if the secret word is HEAT, a guess of COIN would result in '0 Bulls, 0 Cows' (all of the guessed letters are wrong); a guess of EATS would result in '0 Bulls, 3 Cows' (since E, A, T are all present, but not in the guessed positions), and a guess of TEAL would result in '2 Bulls, 1 Cow' (since E and A are in the right positions, while T is in the wrong position). The game would continue until someone scores '4 Bulls' for guessing HEAT exactly."/>
+
+</android.support.v4.widget.NestedScrollView>
